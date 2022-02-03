@@ -1,4 +1,8 @@
-# 4. De nieuwe werkwijze
+---
+layout: page-with-side-nav
+title: De nieuwe werkwijze
+---
+# De nieuwe werkwijze
 
 In  3 Het drie-lagen model  is al uitgelegd hoe SIM's, UGM's en BSM's met elkaar verweven zijn. In dit hoofdstuk beschrijven we hoe deze modellen daadwerkelijk vervaardigd 
 kunnen worden. Als handige start kan het [template Enterprise Architect bestand](https://kinggemeenten.plan.io/attachments/162056) als basis worden genomen. Dit bevat een 
