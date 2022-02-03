@@ -16,9 +16,9 @@ nav:
   - title: VNG Realisatie specifieke documentatie
     subnav:
       - title: Installatie
-        path: ./vng-realisatie/installatie
-#      - title: Begrippen
-#        path: /vng-realisatie/begrippen
+        path: /vng-realisatie/installatie
+      - title: Begrippen
+        path: /vng-realisatie/begrippen
 #      - title: Het drie-lagen model
 #        path: /vng-realisatie/het-3-lagen-model
 #      - title: De nieuwe werkwijze
