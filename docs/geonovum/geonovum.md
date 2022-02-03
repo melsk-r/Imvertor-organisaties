@@ -1,6 +1,6 @@
 ---
 layout: page-with-side-nav
-title: Geonovum specifieke documentaie
+title: Geonovum specifieke documentatie
 ---
 # Geonovum specifieke documentatie
 
