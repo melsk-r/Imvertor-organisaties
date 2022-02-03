@@ -1,4 +1,8 @@
-# 7. Tagged Values
+---
+layout: page-with-side-nav
+title: Tagged values
+---
+# Tagged Values
 
 [**7.1. Tagged values voor de SIM (Semantische Informatie Modellen)**](#71-tagged-values-voor-de-sim-semantische-informatie-modellen)
 
