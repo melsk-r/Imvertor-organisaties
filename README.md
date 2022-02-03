@@ -1,7 +1,3 @@
----
-layout: page-with-side-nav
-title: Imvertor documentatie algemeen
----
 # Imvertor documentatie
 
 Imvertor wordt gebruikt door diverse organisaties. Deze organisaties hebben in het gebruik veel gemeen maar kennen ook afwijkend gebruik.
