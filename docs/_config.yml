@@ -16,23 +16,23 @@ nav:
   - title: VNG Realisatie specifieke documentatie
     subnav:
       - title: Installatie
-        path: /vng-realisatie/installatie
-      - title: Begrippen
-        path: /vng-realisatie/begrippen
-      - title: Begrippen
-        path: /vng-realisatie/begrippen
-      - title: Het drie-lagen model
-        path: /vng-realisatie/het-3-lagen-model
-      - title: De nieuwe werkwijze
-        path: /vng-realisatie/de-nieuwe-werkwijze
-      - title: Handreikingen
-        path: /vng-realisatie/handreikingen
-      - title: Wetenswaardigheden en specials
-        path: /vng-realisatie/wetenswaardigheden-en-specials
-      - title: Tagged Values
-        path: /vng-realisatie/tagged-values
-       - title: Veel voorkomende foutens
-        path: /vng-realisatie/veel-voorkomende-fouten
+        path: /
+#      - title: Installatie
+#        path: /vng-realisatie/installatie
+#      - title: Begrippen
+#        path: /vng-realisatie/begrippen
+#      - title: Het drie-lagen model
+#        path: /vng-realisatie/het-3-lagen-model
+#      - title: De nieuwe werkwijze
+#        path: /vng-realisatie/de-nieuwe-werkwijze
+#      - title: Handreikingen
+#        path: /vng-realisatie/handreikingen
+#      - title: Wetenswaardigheden en specials
+#        path: /vng-realisatie/wetenswaardigheden-en-specials
+#      - title: Tagged Values
+#        path: /vng-realisatie/tagged-values
+#       - title: Veel voorkomende foutens
+#        path: /vng-realisatie/veel-voorkomende-fouten
 plugins:
   - jekyll-redirect-from
   - jekyll-remote-theme
