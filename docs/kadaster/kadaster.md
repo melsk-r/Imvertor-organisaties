@@ -1,6 +1,6 @@
 ---
 layout: page-with-side-nav
-title: Handleiding
+title: Kadaster specifieke documentatie
 ---
 # Kadaster specifieke documentatie
 
