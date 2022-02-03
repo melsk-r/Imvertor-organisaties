@@ -31,12 +31,12 @@ nav:
         path: /vng-realisatie/de-nieuwe-werkwijze
       - title: Handreikingen
         path: /vng-realisatie/handreikingen
-#      - title: Wetenswaardigheden en specials
-#        path: /vng-realisatie/wetenswaardigheden-en-specials
-#      - title: Tagged Values
-#        path: /vng-realisatie/tagged-values
-#       - title: Veel voorkomende foutens
-#        path: /vng-realisatie/veel-voorkomende-fouten
+      - title: Wetenswaardigheden en specials
+        path: /vng-realisatie/wetenswaardigheden-en-specials
+      - title: Tagged Values
+        path: /vng-realisatie/tagged-values
+      - title: Veel voorkomende foutens
+        path: /vng-realisatie/veel-voorkomende-fouten
 plugins:
   - jekyll-redirect-from
   - jekyll-remote-theme
