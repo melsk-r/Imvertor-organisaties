@@ -1,4 +1,8 @@
-# 8 Veel voorkomende fouten
+---
+layout: page-with-side-nav
+title: Veel voorkomende fouten
+---
+# Veel voorkomende fouten
 
 | Laag | Foutomschrijving | Oplossing |
 | --- | --- | --- |
