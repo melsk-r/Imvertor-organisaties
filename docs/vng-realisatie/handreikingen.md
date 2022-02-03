@@ -1,50 +1,54 @@
-# 5. Handreikingen
+---
+layout: page-with-side-nav
+title: Handreikingen
+---
+# Handreikingen
 
-* In  51 Werkinstructies  worden afspraken beschreven over de wijze waarop we binnen de Nieuwe aanpak werkzaamheden verrichten.
+* In Werkinstructies  worden afspraken beschreven over de wijze waarop we binnen de Nieuwe aanpak werkzaamheden verrichten.
 
-*  52 Technieken en handigheidjes  beschrijft technieken en handigheidjes te gebruiken bij het werken in Enterprise Architect.
+* Technieken en handigheidjes  beschrijft technieken en handigheidjes te gebruiken bij het werken in Enterprise Architect.
 
-* In  53 Naamgevingsconventies  worden tenslotte diverse naamgevingsconventies beschreven.
+* In Naamgevingsconventies  worden tenslotte diverse naamgevingsconventies beschreven.
 
 
-# 5.1 Werkinstructies
+## Werkinstructies
 
-## Werkinstructie SIM omzetten naar UGM
+### Werkinstructie SIM omzetten naar UGM
 
-# Kopieer de SIM-package vanuit het KING:SIM-project naar het KING:UGM-project ('Full structure for duplication');
-# Voer het 'Set traceability' script uit. Ga voor een beschrijving daarvan naar de sectie  'Set traceability script draaien' op deze wiki-pagina en kies voor de variant 'Set traceability with transformation' (het onderliggende metamodel voor SIM moet immers omgezet worden naar een metamodel voor het UGM);
-# Volg vervolgens de beschrijving in  42 Het opstellen van een horizontaal GegevensUitwisselingsModel  of  432 Opstellen van een koppelvlak-UitwisselingsGegevensModel .
+1. Kopieer de SIM-package vanuit het KING:SIM-project naar het KING:UGM-project ('Full structure for duplication');
+2. Voer het 'Set traceability' script uit. Ga voor een beschrijving daarvan naar de sectie  'Set traceability script draaien' op deze wiki-pagina en kies voor de variant 'Set traceability with transformation' (het onderliggende metamodel voor SIM moet immers omgezet worden naar een metamodel voor het UGM);
+3. Volg vervolgens de beschrijving in  42 Het opstellen van een horizontaal GegevensUitwisselingsModel  of  432 Opstellen van een koppelvlak-UitwisselingsGegevensModel .
 
-## Werkinstructie UGM omzetten naar BSM
+### Werkinstructie UGM omzetten naar BSM
 
 p{color:red}. *Noot Robert:* Volgens mij zijn er 2 verschillende manieren om een BSM te vervaardigen. Helemaal handmatig waarbij de onderstaande procedure wordt gebruikt of half geautomatiseerd waarbij de Berichtengenerator wordt gebruikt. klopt dat?
 
-# Kopieer het UGM-package vanuit het KING:UGM-project naar het KING:BSM-project ('Full structure for duplication');
-# Voer het 'Set traceability' script uit. Ga voor een beschrijving daarvan naar de sectie  'Set traceability script draaien' op deze wiki-pagina en kies voor de variant 'Set traceability without transformation' (ook in het BSM gebruiken we immers het metamodel voor het UGM);
-# Volg vervolgens de beschrijving in  433 Opstellen van een koppelvlak-BerichtStructuurModel .
+1. Kopieer het UGM-package vanuit het KING:UGM-project naar het KING:BSM-project ('Full structure for duplication');
+2. Voer het 'Set traceability' script uit. Ga voor een beschrijving daarvan naar de sectie  'Set traceability script draaien' op deze wiki-pagina en kies voor de variant 'Set traceability without transformation' (ook in het BSM gebruiken we immers het metamodel voor het UGM);
+3. Volg vervolgens de beschrijving in  433 Opstellen van een koppelvlak-BerichtStructuurModel .
 
-## Werkinstructie UML-package in subversion zetten
+### Werkinstructie UML-package in subversion zetten
 
-# Rechtermuisklik op package 
-# Ga naar Package control / Configure
-# Check het vinkje Control Package
-# Selecteer de gewenste version control locatie
-# Klik op OK
+1. Rechtermuisklik op package 
+2. Ga naar Package control / Configure
+3. Check het vinkje Control Package
+4. Selecteer de gewenste version control locatie
+5. Klik op OK
 
-## Werkinstructie Nieuwe versie Semantisch Informatiemodel IN SVN zetten
+### Werkinstructie Nieuwe versie Semantisch Informatiemodel IN SVN zetten
 
 SIM's worden tijdens het opstellen niet opgeslagen in subversion omdat dit het tegelijkertijd met meerdere personen werken aan een Enterprise Architect bestand zou beletten. Om die reden moet nadat een SIM is vrijgegeven voor verdere verwerking deze eerst in versiebeheer ondergebracht worden. Hoe gaat dit echter in zijn werk (er van uitgaand dat een eerdere versie van het SIM al in beheer is in subversion)?
 
-# Open het EA bestand;
-# Klik met de rechtermuistoets in de Project Browser op het SIM package dat je wil overzetten en kies 'Import/Export | Export package to XMI file...'. Let op het moet wel XMI versie 1.1 zijn;
-# Sla het bestand op over het oude XMI bestand in de folder waarin je de in subversion beheerde XMI standen hebt staan;
-# Sluit het EA bestand;
-# Ga in bestandsbeheer of vergelijkbaar tool naar het betreffende bestand en voer vervolgens bijvoorbeeld m.b.v. Tortoise een commit uit.
+1. Open het EA bestand;
+2. Klik met de rechtermuistoets in de Project Browser op het SIM package dat je wil overzetten en kies 'Import/Export | Export package to XMI file...'. Let op het moet wel XMI versie 1.1 zijn;
+3. Sla het bestand op over het oude XMI bestand in de folder waarin je de in subversion beheerde XMI standen hebt staan;
+4. Sluit het EA bestand;
+5. Ga in bestandsbeheer of vergelijkbaar tool naar het betreffende bestand en voer vervolgens bijvoorbeeld m.b.v. Tortoise een commit uit.
 
 Het bestand is nu weer te gebruiken in een onder controle van subversion staande omgeving. Vergeet echter niet om in EA op het package een 
 'get Latest' te doen.
 
-## Overdragen van een model naar het GEMMA platform
+### Overdragen van een model naar het GEMMA platform
 
 Om de catalogus op het GEMMA platform te genereren is een bestand nodig dat Imvertor maakt. Dit bestand bevat alle informatie die nodig is. Het bestand zit in de ZIP van de release, die je vanuit EA of vanuit het dashboard kunt ophalen.
 Het bestand zit in:
@@ -57,7 +61,7 @@ Toine.Schijvenaars@vng.nl
 </pre>
 Dit is voorlopig de manier om de overdracht te realiseren; er wordt nagedacht of en hoe we dit volautomatisch kunnen laten verlopen.
 
-## Werkinstructie Runnen van Imvertor
+### Werkinstructie Runnen van Imvertor
 
 20160824 Eerste kennismaking met Imvertor vanuit EA  
 
