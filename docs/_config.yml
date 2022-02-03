@@ -19,8 +19,8 @@ nav:
         path: /vng-realisatie/installatie
       - title: Begrippen
         path: /vng-realisatie/begrippen
-#      - title: Het drie-lagen model
-#        path: /vng-realisatie/het-3-lagen-model
+      - title: Het drie-lagen model
+        path: /vng-realisatie/het-3-lagen-model
 #      - title: De nieuwe werkwijze
 #        path: /vng-realisatie/de-nieuwe-werkwijze
 #      - title: Handreikingen
