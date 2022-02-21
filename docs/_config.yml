@@ -9,34 +9,17 @@ url: "http://localhost:4000"
 nav:
   - title: Imvertor documentatie
     subnav:
-      - title: ...
+      - title: Algemeen
         path: /
-  - title: Kadaster specifieke documentatie
-    subnav:
-      - title: ...
-        path: /kadaster/kadaster
-  - title: Geonovum specifieke documentatie
-    subnav:
-      - title: ...
-        path: /geonovum/geonovum
-  - title: VNG Realisatie specifieke documentatie
-    subnav:
-      - title: Installatie
-        path: /vng-realisatie/installatie
-      - title: Begrippen
-        path: /vng-realisatie/begrippen
-      - title: Het drie-lagen model
-        path: /vng-realisatie/het-3-lagen-model
-      - title: De nieuwe werkwijze
-        path: /vng-realisatie/de-nieuwe-werkwijze
-      - title: Handreikingen
-        path: /vng-realisatie/handreikingen
-      - title: Wetenswaardigheden en specials
-        path: /vng-realisatie/wetenswaardigheden-en-specials
-      - title: Tagged Values
-        path: /vng-realisatie/tagged-values
-      - title: Veel voorkomende foutens
-        path: /vng-realisatie/veel-voorkomende-fouten
+      - title: Kadaster specifieke documentatie
+        url: https://melsk-r.github.io/Kadaster/
+        path: /kadaster
+      - title: Geonovum specifieke documentatie
+        url: https://melsk-r.github.io/Geonovum/index
+        path: /geonovum
+      - title: VNG Realisatie specifieke documentatie
+        url: https://melsk-r.github.io/VNG-Realisatie/
+        path: /vng-realisatie
 plugins:
   - jekyll-redirect-from
   - jekyll-remote-theme
